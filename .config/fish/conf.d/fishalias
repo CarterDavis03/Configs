@@ -1,0 +1,15 @@
+alias ipfetch 'curl ifconfig.me'
+alias shutdown 'shutdown -h now'
+alias suspend '~/.apps/suspendssh.sh'
+alias cfv 'nvim /home/carter/.config/nvim/init.vim'
+alias cff "nvim ~/.config/fish/conf.d/omf.fish"
+alias cfa "nvim ~/.config/fish/conf.d/fishalias"
+alias weather "curl wttr.in/Weston-Super-Mare"
+alias cfg "ranger ~/.config/"
+alias pi 'yay -Sy'
+alias pr 'yay -Rs'
+alias pq 'yay -Q | grep'
+alias ps 'yay -Ss'
+alias v 'nvim'
+alias e 'exit'
+alias vim 'nvim'
