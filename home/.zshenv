@@ -1,5 +1,3 @@
-typeset -U PATH path
-
 # Other XDG paths
 export XDG_DATA_HOME=${XDG_DATA_HOME:="$HOME/.local/share"}
 export XDG_CACHE_HOME=${XDG_CACHE_HOME:="$HOME/.cache"}
@@ -17,6 +15,5 @@ export COLORTERM="st"
 export OPENER="xdg-open"
 export WM="dwm"
 
-# Path
-path=( "$HOME/.bin ""$path[@]")
+path+=('~/.bin')
 export PATH
