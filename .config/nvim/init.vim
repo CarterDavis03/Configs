@@ -158,7 +158,7 @@ source ~/.config/nvim/shortcuts.vim
 
 let g:livepreview_previewer = 'zathura'
 let g:Tex_MultipleCompileFormats='pdf,bib,pdf'
-let g:livepreview_use_biber = 0
+let g:livepreview_use_biber = 1
 let g:livepreview_engine = 'xelatex'
 let g:tex_flavor = "latex"
 
@@ -275,6 +275,7 @@ autocmd FileType tex inoremap ;bp \begin{itemize}<Enter><++><Enter>\end{itemize}
 	autocmd FileType bib inoremap ,a @article{<Enter>author<Space>=<Space>{<++>},<Enter>year<Space>=<Space>{<++>},<Enter>title<Space>=<Space>{<++>},<Enter>journal<Space>=<Space>{<++>},<Enter>volume<Space>=<Space>{<++>},<Enter>pages<Space>=<Space>{<++>},<Enter>}<Enter><++><Esc>8kA,<Esc>i
 	autocmd FileType bib inoremap ,b @book{<Enter>author<Space>=<Space>{<++>},<Enter>year<Space>=<Space>{<++>},<Enter>title<Space>=<Space>{<++>},<Enter>publisher<Space>=<Space>{<++>},<Enter>}<Enter><++><Esc>6kA,<Esc>i
 	autocmd FileType bib inoremap ,c @incollection{<Enter>author<Space>=<Space>{<++>},<Enter>title<Space>=<Space>{<++>},<Enter>booktitle<Space>=<Space>{<++>},<Enter>editor<Space>=<Space>{<++>},<Enter>year<Space>=<Space>{<++>},<Enter>publisher<Space>=<Space>{<++>},<Enter>}<Enter><++><Esc>8kA,<Esc>i
+	autocmd FileType bib inoremap ,m @misc{<Enter>author<Space>=<Space>"{<++>}",<Enter>year<Space>=<Space>{<++>},<Enter>title<Space>=<Space>{<++>},<Enter>note<Space>=<Space>"\textit{\url{<++>}}",<Enter>}<Enter><++><Esc>6kA,<Esc>i
 
 "MARKDOWN
 	autocmd Filetype markdown,rmd map <leader>w yiWi[<esc>Ea](<esc>pa)
