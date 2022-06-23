@@ -15,5 +15,7 @@ export COLORTERM="st"
 export OPENER="xdg-open"
 export WM="dwm"
 
+export KBLANG="gb"
+
 path+=('~/.bin')
 export PATH
