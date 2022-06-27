@@ -1,5 +1,3 @@
 if [[ "$(tty)" = "/dev/tty1" ]]; then
-	pgrep dwm || startx
+	startx
 fi
-
-eval "$(gh completion -s zsh)"
