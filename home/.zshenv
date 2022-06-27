@@ -14,6 +14,7 @@ export IMAGE="sxiv"
 export COLORTERM="st"
 export OPENER="xdg-open"
 export WM="dwm"
+export PAGER="less"
 
 export KBLANG="gb"
 
