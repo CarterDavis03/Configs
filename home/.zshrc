@@ -4,6 +4,9 @@ pfetch
 # If not running interactively, don't do anything
 [[ $- != *i* ]] && return
 
+# Enable autocd
+setopt autocd
+
 # Enable colors and change prompt:
 autoload -U colors && colors
 
