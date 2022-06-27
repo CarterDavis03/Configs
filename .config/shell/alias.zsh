@@ -7,7 +7,9 @@ alias v='nvim'
 # Configs
 alias cfv='nvim ~/.config/nvim/init.vim'
 alias cfa='nvim ~/.config/shell/alias.zsh'
-alias cfg="ranger ~/.config/"
+alias cfg='ranger ~/.config/'
+alias cfz='nvim ~/.zshrc'
+alias cfe='nvim ~/.zshenv'
 
 # Pacman Shortcuts
 alias pi='yay -Sy'
