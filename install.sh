@@ -5,6 +5,7 @@ read
 
 CONFIG=".config/*"
 HOMEDFILES="./home/.[!.]*"
+LOCSHRAPP="./.local/share/applications/*"
 
 for i in $CONFIG
 do
@@ -12,6 +13,11 @@ do
 	ln -s $(pwd)/$i $HOME/.config/
 done
 
+for i in $LOCSHRAPP
+do
+	echo "Adding $i link.."
+	ln -s $(pwd)/$i $HOME/.local/share/applications/
+done
 
 # Link dotfiles in home dir
 for i in $HOMEDFILES
