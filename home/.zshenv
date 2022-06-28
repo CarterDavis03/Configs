@@ -18,5 +18,5 @@ export PAGER="less"
 
 export KBLANG="gb"
 
-path+=('~/.bin')
+path+=('~/.local/bin')
 export PATH
