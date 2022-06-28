@@ -1,8 +1,9 @@
 #!/bin/bash
-
-echo "!!!WARNING!!!"
-printf "This script will delete all files in the place of my configs, this may nuke your system. All configs are made to work on my system and may not necessarily work on yours.\nPlease look through the configs to make sure you know what they do and that you actually want them.\nAlso, please run this script from within the folder that contains the install script as it expects it to be ran from there and could have majorly bad consequences if not ran correctly.\nPress enter to begin."
-read
+if [ "$*" == "" ]; then
+	echo "!!!WARNING!!!"
+	printf "This script will delete all files in the place of my configs, this may nuke your system. All configs are made to work on my system and may not necessarily work on yours.\nPlease look through the configs to make sure you know what they do and that you actually want them.\nAlso, please run this script from within the folder that contains the install script as it expects it to be ran from there and could have majorly bad consequences if not ran correctly.\nPress enter to begin."
+	read
+fi
 
 CONFIG=".config/*"
 HOMEDFILES="./home/.[!.]*"
@@ -31,4 +32,6 @@ do
 	ln -s $(pwd)/$i $HOME/
 done
 
-printf "\nAll done. Please scroll through and check that there are no errors.\nIf there are.. system go bye bye (probably not, likely just some extra clutter to clean up)\n"
+if [ "$*" == "" ]; then
+	printf "\nAll done. Please scroll through and check that there are no errors.\nIf there are.. system go bye bye (probably not, likely just some extra clutter to clean up)\n"
+fi
