@@ -10,14 +10,14 @@ LOCSHRAPP="./.local/share/applications/*"
 
 for i in $CONFIG
 do
-	rm -r $HOME/$i
+	rm -r $HOME/$i 2> /dev/null
 	echo "Adding $i link.."
 	ln -s $(pwd)/$i $HOME/.config/
 done
 
 for i in $LOCSHRAPP
 do
-	rm -r $HOME/$i
+	rm -r $HOME/$i 2> /dev/null
 	echo "Adding $i link.."
 	ln -s $(pwd)/$i $HOME/.local/share/applications/
 done
@@ -26,7 +26,7 @@ done
 for i in $HOMEDFILES
 do
 	iHOME=$(sed 's/.\/home\///' <<< $i)
-	rm -r $HOME/$iHOME
+	rm -r $HOME/$iHOME 2> /dev/null
 	echo "Adding $i link.."
 	ln -s $(pwd)/$i $HOME/
 done
