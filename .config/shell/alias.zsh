@@ -41,3 +41,7 @@ alias grm='git remote'
 alias gb='git branch'
 alias gm='git merge'
 alias gf='git fetch'
+
+# Locations
+alias c='~/.local/configs'
+alias d='~/Documents'
