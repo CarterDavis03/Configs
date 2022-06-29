@@ -162,19 +162,10 @@ let g:livepreview_use_biber = 1
 let g:livepreview_engine = 'xelatex'
 let g:tex_flavor = "latex"
 
-" Custom maps
-map <Space><Space> <Esc>/<++><Enter>"_c4l
-autocmd FileType tex inoremap ;se \section{<++>}<Enter><Enter><++><Esc>
-autocmd FileType tex inoremap ;sub \subsection{<++>}<Enter><Enter><++><Esc>
-autocmd FileType tex inoremap ;ssub \subsubsection{<++>}<Enter><Enter><++><Esc>
-autocmd FileType tex inoremap ;sus \subsection*{<++>}<Enter><Enter><++><Esc>
-autocmd FileType tex inoremap ;ssus \subsubsection*{<++>}<Enter><Enter><++><Esc>
-autocmd FileType tex inoremap ;bf \textbf{}<Space><++><Esc>F{li<Esc>
-autocmd FileType tex inoremap ;it \textit{}<Space><++><Esc>F{li<Esc>
-autocmd FileType tex inoremap ;em \emph{}<Space><++><Esc>F{li<Esc>
-autocmd FileType tex inoremap ;ul \underline{}<Space><++><Esc>F{li<Esc>
-autocmd FileType tex inoremap ;fr \begin{frame}[t]{<++>}<Enter><Enter><++><Enter><Enter>\end{frame}<Esc>
-autocmd FileType tex inoremap ;bp \begin{itemize}<Enter><++><Enter>\end{itemize}<Esc>
+set smartindent
+set tabstop=2
+set expandtab
+set shiftwidth=2
 
 """"""""""""""""""""""""""""
 " Luke Smith's old shortcuts
