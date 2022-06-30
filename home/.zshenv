@@ -18,5 +18,4 @@ export PAGER="less"
 
 export KBLANG="gb"
 
-path+=('~/.local/bin')
-export PATH
+export PATH="$HOME/.local/bin:$PATH"
