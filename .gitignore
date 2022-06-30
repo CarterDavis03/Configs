@@ -1,2 +1,3 @@
 .config/nvim/autoload
 .config/nvim/plugged
+.config/mpv/watch_later
