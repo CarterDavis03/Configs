@@ -3,6 +3,7 @@ alias e='exit'
 alias se='sudoedit'
 alias s='sudo'
 alias v='nvim'
+alias r='ranger'
 
 # Configs
 alias cfv='nvim ~/.config/nvim/init.vim'
@@ -45,3 +46,4 @@ alias gf='git fetch'
 # Locations
 alias c='~/.local/configs'
 alias d='~/Documents'
+alias src='~/.local/src'

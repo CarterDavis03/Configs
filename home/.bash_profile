@@ -8,3 +8,4 @@ PATH=$PATH:~/.local/bin/
 export SUDO_EDITOR=/usr/bin/nvim
 export EDITOR=/usr/bin/nvim
 export VISUAL=/usr/bin/nvim
+source ~/.config/shell/alias.zsh
