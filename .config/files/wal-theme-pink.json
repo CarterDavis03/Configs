@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/carter/Pictures/backgrounds/ultrawide/yui.png",
+    "alpha": "100",
+    "special": {
+        "background": "#2b2022",
+        "foreground": "#d8d2da",
+        "cursor": "#d8d2da"
+    },
+    "colors": {
+        "color0": "#2b2022",
+        "color1": "#C89879",
+        "color2": "#BA7988",
+        "color3": "#B39A8B",
+        "color4": "#D2A892",
+        "color5": "#D0B4A8",
+        "color6": "#E6CDB3",
+        "color7": "#d8d2da",
+        "color8": "#979398",
+        "color9": "#C89879",
+        "color10": "#BA7988",
+        "color11": "#B39A8B",
+        "color12": "#D2A892",
+        "color13": "#D0B4A8",
+        "color14": "#E6CDB3",
+        "color15": "#d8d2da"
+    }
+}
