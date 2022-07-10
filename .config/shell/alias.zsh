@@ -4,6 +4,7 @@ alias se='sudoedit'
 alias s='sudo'
 alias v='nvim'
 alias r='ranger'
+alias mi='sudo make install'
 
 # Configs
 alias cfv='nvim ~/.config/nvim/init.vim'
@@ -47,3 +48,6 @@ alias gf='git fetch'
 alias c='~/.local/configs'
 alias d='~/Documents'
 alias src='~/.local/src'
+
+# Laptop
+alias bl='sudo xbacklight -set'
