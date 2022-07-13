@@ -5,6 +5,7 @@ alias s='sudo'
 alias v='nvim'
 alias r='ranger'
 alias mi='sudo make install'
+alias mkdir='mkdir -pv'
 
 # Configs
 alias cfv='nvim ~/.config/nvim/init.vim'
