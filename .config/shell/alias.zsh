@@ -48,6 +48,7 @@ alias gf='git fetch'
 
 # Locations
 alias c='~/.local/configs'
+alias b='~/.local/bin'
 alias d='~/Documents'
 alias src='~/.local/src'
 
