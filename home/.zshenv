@@ -19,3 +19,4 @@ export PAGER="less"
 export KBLANG="gb"
 
 export PATH="$HOME/.local/bin:$PATH"
+export BIBFILE="$HOME/Documents/university/references.bib"
